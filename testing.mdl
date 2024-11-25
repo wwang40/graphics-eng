@@ -1,0 +1,10 @@
+frames 30
+basename ballon
+vary float 0 20 0 1
+vary fall 21 30 0 1
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+push
+move 0 60 0 float
+move 0 -60 0 fall
+sphere shiny_teal 250 0 0 100
+save float.png
